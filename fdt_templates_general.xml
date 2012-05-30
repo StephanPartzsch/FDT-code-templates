@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a text field and the corresponding text format" enabled="true" name="_tf">var ${textFormat} : TextFormat = new TextFormat();
+${textFormat}.color = 0x0066ff;
+${textFormat}.font = "Mini";
+${textFormat}.size = 10;
+			
+var ${textField} : TextField = new TextField();
+${textField}.antiAliasType = AntiAliasType.ADVANCED;
+${textField}.defaultTextFormat = ${textFormat};
+${textField}.embedFonts = true;
+${textField}.multiline = false;
+${textField}.selectable = false;
+${textField}.wordWrap = false;
+${textField}.text = "${TestText}";
+			
+addChild(${textField});</template></templates>

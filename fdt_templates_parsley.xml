@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Message handler for a command complete message (parsley)" enabled="true" name="_commandComplete">[CommandComplete(type="${FullQualifiedMessageName}")]
+public function handle${MessageName}() : void
+{
+	${cursor}		
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Message handler for a comand error message (parsley)" enabled="true" name="_commandError">[CommandError(type="${FullQualifiedMessageName}")]
+public function handle${MessageName}() : void
+{
+	${cursor}	
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Message Handler for a command result (parsley)" enabled="true" name="_commandResult">[CommandResult]
+public function handle${MessageName}( request : Task, message : ${MessageName} ) : void
+{
+	${cursor}		
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a parsley initialize function with appropriate metadata tag INIT" enabled="true" name="_init">[Init]
+public function initialize() : void
+{
+	${cursor}
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Injects a parsley context variable" enabled="true" name="_inject">[Inject]
+public var ${variableName} : ${Class};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger field variabe" enabled="true" name="_log">private static const LOG : Logger = LogContext.getLogger( ${enclosing_type} );</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a field for the parsley message dispatcher with a metadata tag" enabled="true" name="_messageDispatcher">[MessageDispatcher]
+public var dispatcher : Function;</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a Parsley message handler with metadata tag" enabled="true" name="_messageHandler">[MessageHandler]
+public function handle${FunctionName}( message : ${Message} ) : void
+{
+	${cursor}
+}</template></templates>
