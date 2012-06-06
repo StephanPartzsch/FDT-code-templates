@@ -6,7 +6,9 @@ public function run_after_every_test() : void
 public function run_before_every_test() : void
 {
 	${cursor}
-}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a test method for unit tests" enabled="true" name="_test">[Test]
+}</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a mock variable for mockito" enabled="true" name="_mock">[Mock]
+public var ${variableName} : ${Class};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a rule for Mockito" enabled="true" name="_mockitoRule">[Rule]
+public var mockitoRule : IMethodRule = new MockitoRule();</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a test method for unit tests" enabled="true" name="_test">[Test]
 public function test_${method_name}() : void
 {
 	${cursor}
