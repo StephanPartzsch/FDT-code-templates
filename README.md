@@ -23,8 +23,8 @@ This repository contains packages (in this case XML files) of some helpful code 
   * Method stub for *After* metadata tag
   * Method stub for *Test* metadata tag
 
- * *Mock Templates* - Templates for writing mocks with [mockito-flex](https://bitbucket.org/loomis/mockito-flex/wiki/Home).
- 
+* *Mock Templates* - Templates for writing mocks with [mockito-flex](https://bitbucket.org/loomis/mockito-flex/wiki/Home).
+
   * Template for *Rule* metadata tag
   * Template for *Mock* metadata tag
    
