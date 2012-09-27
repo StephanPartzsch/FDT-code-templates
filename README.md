@@ -9,7 +9,6 @@ This repository contains packages (in this case XML files) of some helpful code 
   * i.e. creating a text field with a text format
 
 * *Parsley Templates* - Templates to shorten the work with [Parsley](http://www.spicefactory.org/parsley). These templates were created for Parsley version 2.4
-  * Template for adding a logger instance as a field
   * Template for *Inject* metadata tag
   * Template for *MessageDispatcher* metadata tag
   * Method stub for *Init* metadata tag
@@ -17,6 +16,11 @@ This repository contains packages (in this case XML files) of some helpful code 
   * Method stub for *CommandResult* metadata tag
   * Method stub for *CommandError* metadata tag
   * Method stub for *MessageHandler* metadata tag
+
+* *Logging Templates* - Templates to shorten the work with [Spicelib Logging](http://spicefactory.org/parsley/docs/2.4/manual/spicelib-logging.php#intro). These templates were created for Spicelib version 2.4
+  * Template for adding a logger instance as a field
+  * Templates for adding all log level statements (e.g. DEBUG, INFO, ...)
+  * Template for adding info statement with enclosing method name
 
 * *Unit Test Templates* - Templates for writing unit tests with [flex unit](http://flexunit.org). These templates were created for FlexUnit version 4.1
   * Method stub for *Before* metadata tag

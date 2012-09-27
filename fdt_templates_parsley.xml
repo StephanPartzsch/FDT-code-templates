@@ -15,7 +15,7 @@ public function initialize() : void
 {
 	${cursor}
 }</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Injects a parsley context variable" enabled="true" name="_inject">[Inject]
-public var ${variableName} : ${Class};</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger field variabe" enabled="true" name="_log">private static const LOG : Logger = LogContext.getLogger( ${enclosing_type} );</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a field for the parsley message dispatcher with a metadata tag" enabled="true" name="_messageDispatcher">[MessageDispatcher]
+public var ${variableName} : ${Class};</template><<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a field for the parsley message dispatcher with a metadata tag" enabled="true" name="_messageDispatcher">[MessageDispatcher]
 public var dispatcher : Function;</template><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a Parsley message handler with metadata tag" enabled="true" name="_messageHandler">[MessageHandler]
 public function handle${FunctionName}( message : ${Message} ) : void
 {
