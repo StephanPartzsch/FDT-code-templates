@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger field variabe" enabled="true" name="_log">private static const LOG : Logger = LogContext.getLogger( ${enclosing_type} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger trace statement" enabled="true" name="_trace">LOG.trace( ${cursor} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger debug statement" enabled="true" name="_debug">LOG.debug( ${cursor} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger info statement" enabled="true" name="_info">LOG.info( ${cursor} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger warn statement" enabled="true" name="_warn">LOG.warn( ${cursor} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger error statement" enabled="true" name="_error">LOG.error( ${cursor} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger fatal statement" enabled="true" name="_fatal">LOG.fatal( ${cursor} );</template>
+	<template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Logger info statement with enclosed method name" enabled="true" name="_method">log.info(&quot;--&gt; ${enclosing_method}()&quot;);</template>
+</templates>
